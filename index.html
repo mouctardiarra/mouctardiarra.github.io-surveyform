@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<main>
+  <h1 id="title">Woodchuck Survey</h1>
+  <p id="description">
+    The best dang survey in the galaxy
+  </p>
+  <form id="survey-form" action="#">
+    <div id="name-stuff">
+      <label for="name" id="name-label">Enter your name ヽ(ﾟДﾟ)ﾉ:</label>
+      <input id="name" type="text" placeholder="Any name will do" required>
+    </div>
+    <div id="email-stuff">
+      <label for="email" id="email-label">Enter your email ( ≧Д≦):</label>
+      <input id="email" type="email" placeholder="Any email will do" required>
+    </div>
+    <div id="number-stuff">
+      <label for="number" id="number-label">Enter a number (▰˘︹˘▰):</label>
+      <input id="number" type="number" min="-9999999" max="9999999" placeholder="Put # here" required>
+    </div>
+    <div>
+      <label for="Woodchucks">Choose your favorite woodchuck (灬♥ω♥灬):</label>
+      <select name="Woodchucks" id="dropdown" required>
+        <option value="Punxsutawney Phil">Punxsutawney Phil</option>
+        <option value="Grover">Grover</option>
+        <option value="Sir Walter Wally">Sir Walter Wally</option>
+        <option value="Dunkirk Dave">Dunkirk Dave</option>
+        <option value="Chuckles IX">Chuckles IX</option>
+      </select>
+    </div>
+    <div>
+      <p> How much wood could a woodchuck chuck if a woodchuck could chuck wood? ⊃゜Д゜）⊃</p>
+      <label for="20ft">
+        <input id="20ft" value="20ft" type="radio" name="below 40">20ft</label>
+      <label for="30ft">
+        <input id="30ft" value="30ft" type="radio" name="below 40">30ft</label>
+      <label for="40ft">
+        <input id="41ft" value="40ft" type="radio" name="over 40">40ft</label>
+      <label for="All da wood">
+        <input id="All da wood" value="All da wood" type="radio" name="over 40">All da wood</label>
+    </div>
+    <div id="last-question">
+      <p> Why do you love woodchucks? ╰། ◉ ◯ ◉ །╯</p>
+      <label for="Cuddly">
+        <input id="Cuddly" value="Cuddly" type="checkbox" name="Cuddly">Cuddly</label>
+      <label for="Cute">
+        <input id="Cute" value="Cute" type="checkbox" name="Cute">Cute</label>
+      <label for="Cool">
+        <input id="Cool" value="Cool" type="checkbox" name="Cool">Cool</label>
+      <label for="Good Friends">
+        <input id="Good Friends" value="Good Friends" type="checkbox" name="Good Friends">Good Friends</label>
+    </div>
+    <div>
+      <label for="comments">Please describe your love for woodchucks in at least 500 words. (╭☞'ω')╭☞</label>
+      <textarea id="comments" name="comments" rows="1" cols="50">
+</textarea>
+    </div>
+    <div>
+      <button type="submit" id="submit">Submit</button>
+    </div>
+  </form>
+</main>
+<div>
+  <img id="image" class="border" src="https://www.racinezoo.org/sites/default/files/Untitled-5_0.png" alt="">
+</div>
+<!-- partial -->
+  
+</body>
+</html>
